@@ -1,0 +1,82 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background: #F3F5FC;
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensagem {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.imagem-cadeado {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    opacity: 0.4;
+    padding-left: 74px;
+    margin-top: 17px;
+}
+
+.informacao {
+    font-size: 15px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.criptografar {
+    background-color: #0A3871;
+    color: white;
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    width: 240px;
+}
+
+.descriptografar {
+    margin-left: 30px;
+    background-color: #0A3871;
+    color: white;
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    width: 240px;
+}
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    width: 240px;
+    margin-left: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 250px;
+}
+
+.copyright {
+    color: #000;
+    font-size: 13px;
+    margin: 20px 0;
+    margin-bottom: 0px;
+}
